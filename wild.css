@@ -1,3 +1,21 @@
+body{
+    background-color: #FFD8C9;
+}
+h1{
+    font-family: 'Monoton', cursive;
+    font-size: 4em; 
+    color: rgb(255, 130, 84);
+    margin-bottom: 0px;
+    text-align: center;
+}
+img{
+    width: 500px;
+    margin: 15px;
+    transition: all 1s;
+}
+img:hover{
+    transform: scale(1.1);
+}
 hr{
     height: 10px;
     color: rgb(255, 130, 84);
@@ -14,22 +32,4 @@ hr{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-}
-img{
-    width: 500px;
-    margin: 15px;
-    transition: all 1s;
-}
-img:hover{
-    transform: scale(1.1);
-}
-body{
-    background-color: #FFD8C9;
-}
-h1{
-    font-family: 'Monoton', cursive;
-    font-size: 4em; 
-    color: rgb(255, 130, 84);
-    margin-bottom: 0px;
-    text-align: center;
 }
